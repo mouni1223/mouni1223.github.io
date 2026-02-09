@@ -40,17 +40,21 @@ body {
     padding: 70px 20px;
     animation: fadeIn 2s;
 }
-
+    
 .profile {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     border: 5px solid white;
-    transition: transform 0.5s;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.4s ease-in-out;
 }
 
 .profile:hover {
-    transform: scale(1.1) rotate(6deg);
+    transform: scale(1.05);
+}
+
 }
 
 /* ANIMATION */
@@ -189,4 +193,5 @@ body {
 
 </body>
 </html>
+
 
